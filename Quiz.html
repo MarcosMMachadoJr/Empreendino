@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--Cabeça-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpreenDINO</title>
+
+    <!--Arquivos-->
+    <link rel="preload" href="./Principal.css" as="style">
+    <link rel="preload" href="./Quiz.css" as="style">
+    <link rel="preload" href="./scriptQuiz.js" as="script">
+    <link rel="preload" href="./scriptasso.js" as="script">
+    
+    <link rel = " shortcut icon " href = "IconTab.png" >
+    
+    <link rel="stylesheet" href="./Principal.css" as="style">
+    <link rel="stylesheet" href="./Quiz.css">
+  </head>
+  
+  <body>
+    <!--Cabeçalho-->
+    <header>
+      <div class="logo">
+        <a href="PaginaInicial.html">
+          <img src="./LogoEmpreendino.png"></a>
+        </div>
+        <nav>
+          <ul class="cabecalho">
+            
+          </ul>
+        </nav>
+        
+        
+        <!--Butão do menu-->
+        <div class="botaoMenu">
+          <img src="./icone.svg" alt="Clique para abrir ou fechar o menu" id="btnMenu">
+        </div>
+      </header>
+      
+      <!--Imagem de fundo-->
+      <div class="bg-image"></div>
+      <div id="fade"></div>
+      
+      <!--Menu-->
+      <div id="menu" class="menu">
+        <nav>
+          <div style="text-align: right;">
+            <button id="btnClose" rel="noopener">X
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          
+          <div class="menu-content">
+            <ul>
+              <li><a href="EmpDigital.html" rel="noopener">Empreendedorismo digital</a></li>
+              <li><a href="EmpAmbiental.html" rel="noopener">Empreendedorismo ambiental</a></li>
+              <li><a href="EmpCooperativo.html" rel="noopener">Empreendedorismo cooperado</a></li>
+              <li><a href="EmpCorporativo.html" ret="noopener">Empreendedorismo corporativo</a></li>
+              <li><a href="EmpFranqueado.html" rel="noopener">Empreendedorismo franqueado</a></li>
+              <li><a href="EmpIndividual.html" rel="noopener">Empreendedorismo individual</a></li>
+              <li><a href="EmpInformal.html" rel="noopener">Empreendedorismo informal</a></li>
+              <li><a href="EmpPublico.html" rel="noopener">Empreendedorismo público</a></li>
+              <li><a href="EmpSocial.html" rel="noopener">Empreendedorismo social</a></li>
+              <li><a href="Quiz.html" rel="noopener">Teste seu conhecimento</a></li>
+              <li><a href="QuemSomos.html" rel="noopener">Quem somos!</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+        <div class="menu-overlay"></div>          
+    </div>
+
+    <div id="quiz">
+      <div class="question">
+        <h2>Questão 1</h2>
+        <p> Empreendedorismo ambiental precisa estar ligado apenas na parte ecológica?</p>
+        <ul class="Bababui">
+          <li><input type="radio" name="q1" value="a">a) Sim, Apenas na parte ambiental</li>
+          <li><input type="radio" name="q1" value="b">b) Não, pode estar atrelado a outros tipos de empreendedorismo</li>
+          <li><input type="radio" name="q1" value="c">c) É OBRIGATÓRIO ter outro tipo de empreendedorismo</li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Questão 2</h2>
+        <p>Qual desses é a principal característica no empreendedorismo cooperado?</p>
+        <ul>
+          <li><input type="radio" name="q2" value="a">a) Colaboração entre empresas</li>
+          <li><input type="radio" name="q2" value="b">b) Perda de autonomia das empresas
+          </li>
+          <li><input type="radio" name="q2" value="c">c) Negociar com empresas com interesses diferentes
+          </li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Questão 3</h2>
+        <p>Qual a principal diferença entre o empreendedor corporativo e os outros tipos de empreendedor?</p>
+        <ul>
+          <li><input type="radio" name="q3" value="a">a) Eles têm o próprio negócio e são seus próprios chefes
+          </li>
+          <li><input type="radio" name="q3" value="b">b) Atuam numa empresa</li>
+          <li><input type="radio" name="q3" value="c">c) Os empreendedores corporativos trabalham sozinhos
+          </li>
+          <div class="question">
+            <h2>Questão 4</h2>
+            <p> É importante ressaltar que as pessoas que atuam nessa área:
+            </p>
+            <ul>
+              <li><input type="radio" name="q4" value="a">a) São funcionários de prefeituras.
+              </li>
+              <li><input type="radio" name="q4" value="b">b) São funcionários de estados</li>
+              <li><input type="radio" name="q4" value="c">c) Não são funcionários de prefeituras, estados ou suas filiais.
+  
+              </li>
+              <div class="question">
+                <h2>Questão 5</h2>
+                <p> Sobre Empreendedor Individual (EI) e Microempreendedor (MEI) responda. Qual das opções abaixo está correta?
+                </p>
+                <ul>
+                  <li><input type="radio" name="q5" value="a">a) Ambos têm os mesmos limites de atividades.
+  
+                  </li>
+                  <li><input type="radio" name="q5" value="b">b) Ambos têm os mesmos limites de faturamentos anual.</li>
+                  <li><input type="radio" name="q5" value="c">c) O MEI tem uma lista de atividades econômicas permitidas, o empresário individual pode registrar qualquer atividade econômica para fins comerciais.</li>
+                  <div class="question">
+                    <h2>Questão 6</h2>
+                    <p> Em que período o termo empreendedorismo surgiu?
+  
+                    </p>
+                    <ul>
+                      <li><input type="radio" name="q6" value="a">a) No imperialismo.</li>
+                      <li><input type="radio" name="q6" value="b">b) Na industrialização
+                      <li><input type="radio" name="q6" value="c">c) Na guerra fria
+  
+                      </li>
+                      <div class="question">
+                        <h2>Questão 7</h2>
+                        <p> Quantas pessoas são empreendedores informais no Brasil?
+  
+                        </p>
+                        <ul>
+                          <li><input type="radio" name="q7" value="a">a) 20% da população brasileira
+  
+                          </li>
+                          <li><input type="radio" name="q7" value="b">b) 10% da população brasileira </li>
+                          <li><input type="radio" name="q7" value="c">c) 40% da população brasileira
+  
+                          </li>
+                          <div class="question">
+                            <h2>Questão 8</h2>
+                            <p> Quais as vantagens de trabalhar como franqueado?
+  
+                            </p>
+                            <ul>
+                              <li><input type="radio" name="q8" value="a">a) Você pode mudar tudo na empresa.
+  
+                              </li>
+                              <li><input type="radio" name="q8" value="b">b) Você precisa pensar do zero para abrir uma empresa. </li>
+                              <li><input type="radio" name="q8" value="c">c) Você não precisa pensar do zero para abrir uma empresa, pois ela já vem com todas as ideias formadas.
+  
+                              </li>
+                              <div class="question">
+                                <h2>Questão 9</h2>
+                                <p> Qual a maior dificuldade que os vendedores digitais enfrentam hoje em dia?
+  
+                                </p>
+                                <ul>
+                                  <li><input type="radio" name="q9" value="a">a) Problemas em inovar seus produtos.
+  
+                                  </li>
+                                  <li><input type="radio" name="q9" value="b">b) Problemas para se estabilizar e acompanhar o avanço da tecnologia. </li>
+                                  <li><input type="radio" name="q9" value="c">c) Não conseguir o público alvo necessário.
+  
+                                  </li>
+  
+                                </ul>
+                              </div>
+                              <button id="submit">Enviar</button>
+                          </div>
+    
+    <!--Arquivos 2-->
+    <script src="./scriptQuiz.js"></script>
+    <script src="./scriptasso.js"></script>
+    <noscript>Por favor, habilite o JavaScript para visualizar o conteúdo deste site.</noscript>
+</body>
+</html>

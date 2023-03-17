@@ -1,0 +1,89 @@
+body {
+  color: black;
+  }
+  
+/* Centraliza o título principal */
+h2 {
+  text-align: left;
+  color: #135487;
+  font-family: 'Roboto Mono';
+}
+
+/* Define as propriedades do bloco de quiz */
+#quiz {
+  margin: 0 auto; /* centraliza horizontalmente */
+  margin-top: 10%;
+  margin-bottom: 3%;
+  width: 80%; /* aumenta a largura do bloco */
+  background-color: #d2d8dbb9; /* adiciona uma cor de fundo */
+  padding: 4%; /* adiciona espaço interno */
+  border-radius: 0.8%; /* arredonda as bordas */
+  box-shadow: 0 0 10px rgba(255, 253, 253, 0.507); /* adiciona sombra */
+}
+
+/* Define as propriedades das perguntas */
+.question {
+  margin-top: 2%;
+}
+
+p {
+  font-family: 'Roboto Mono';
+  font-size: 125%;
+  margin-bottom: 20px;
+}
+
+/* Define as propriedades dos títulos das perguntas */
+h2 {
+  margin-bottom: 3%;
+}
+
+/* Remove o estilo padrão de lista */
+ul {
+  list-style-type: nome;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define as propriedades dos itens de resposta */
+li{
+  display: flex;
+  font-family: 'Roboto Mono';
+}
+  
+/* Ajusta a posição dos botões de rádio */
+input[type="radio"] {
+  margin-right: 0.8%;
+  position: relative;
+  text-align: left;
+}
+
+/* Define as propriedades do botão de envio */
+#submit {
+  display: block;
+  margin: 8% auto 0; /* centraliza e adiciona espaço superior */
+  padding: 1% 1.5%; /* adiciona espaço interno */
+  background-color: #007bff; /* altera a cor de fundo */
+  color: #fff; /* altera a cor do texto */
+  border-radius: 1% solid #e8e8e8; /* arredonda as bordas */
+  border-radius: 10%;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+  cursor: pointer; /* adiciona cursor de mão ao passar por cima */
+}
+
+#submit:active {
+  color: rgb(0, 39, 83);
+  box-shadow: inset 4px 4px 12px #004fa3,
+              inset -4px -4px 12px #68b1ff;
+  }
+
+/* Define as propriedades das respostas corretas */
+.correct {
+  color: green;
+}
+
+/* Define as propriedades das respostas incorretas */
+.incorrect {
+  color: rgb(167, 0, 0);
+}  
